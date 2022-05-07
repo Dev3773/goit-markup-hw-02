@@ -1,0 +1,44 @@
+:root {
+  /* fonts */
+--meain-font:'Roboto', sans-serif;
+--second-font: 'Raleway', sans-serif;
+
+  /* text colors */
+--accent-cl: #212121;
+--main-text-cl: #FFFFFF;
+--second-text-cl: #2196F3;
+
+  /*bacground colors*/
+--main-color: #E5E5E5;
+--second-color: #2F303A;
+--third-color: #F5F4FA;
+--btn-color: #2196F3;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--accent-cl);
+  font-family: var(--meain-font);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1,14;
+  letter-spacing: 0,03em;
+}
+
+/* Header section */
+.header {
+  background-color: #FFFFFF;
+} 
+
+.logo {
+
+}
+
+.navigation-list {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0,02;
+  color: ;
+}
+
+
