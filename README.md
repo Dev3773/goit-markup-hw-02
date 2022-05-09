@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-The first project
+# goit-markup-hw-02
+Continuation of the project

@@ -25,6 +25,7 @@
 body {
   font-family: var(--main-font);
   background-color: var(--main-color);
+  color: var(--accent-cl);
 }
 
 .link {
@@ -263,6 +264,45 @@ color: var(--second-text-cl);
 
 /* --File Portfolio.html-- */
 
+/* --Filtr section-- */
 
+.btn-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-cl);
+  background-color: var(--second-color);
+  cursor: pointer;
+}
 
+.btn-filter:hover, .filter-list-btn:focus {
+  background-color: var(--btn-color);
+  color: var(--main-text-cl);
+}
+
+.filter-list-btn {
+  list-style: none;
+}
+
+.services-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
+  color: var(--accent-cl);
+  vertical-align: top;
+}
+
+.services-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--email-phone-cl);
+}
+
+.services {
+  list-style: none;
+}
 
